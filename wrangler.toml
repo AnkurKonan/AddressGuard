@@ -1,0 +1,12 @@
+name = "addressguard-api"
+main = "src/main.py"
+compatibility_date = "2026-11-07"
+compatibility_flags = ["python_workers"]
+
+# Optional plain vars (not secret). Prefer secrets for API keys.
+# [vars]
+# ADDRESSGUARD_API_KEY = "dev-only-do-not-use-in-production"
+
+# Set secrets after first deploy:
+#   npx wrangler secret put ADDRESSGUARD_API_KEY
+#   npx wrangler secret put MARKETPLACE_PROXY_SECRET
