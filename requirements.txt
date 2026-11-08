@@ -1,9 +1,0 @@
-# Runtime (Cloudflare Workers + local)
-fastapi>=0.115,<1.0
-pydantic>=2.8,<3.0
-indian-pincode>=2.0,<3.0
-
-# Local development / tests only (not needed on Workers)
-uvicorn[standard]>=0.30,<1.0
-httpx>=0.27,<1.0
-pytest>=8.0,<9.0
